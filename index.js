@@ -3,7 +3,7 @@ const bot = new Discord.Client()
 
 bot.on('ready', function () {
     console.log("Je suis connecté !")
-    bot.user.setActivity('text', { type: "WATCHING" });
+    bot.user.setActivity('Universe Pub', { type: "WATCHING" });
 }) 
 
 bot.on('message', message => {
